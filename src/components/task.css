@@ -1,0 +1,9 @@
+.task-done {
+  cursor: pointer;
+  text-decoration: line-through 3px solid #ab1d4a;
+}
+.toDo {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}

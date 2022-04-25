@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.todo-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.button-clear-done {
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 0.8rem;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ab1d4a;
+  background-color: #ffc06e;
+  border: 1px solid #ab1d4a;
+  border-radius: 15px;
+}
+.button-clear-done:hover {
+  cursor: pointer;
+  background-color: #ffd093;
+  box-shadow: 0 2px #e19d45;
+  transform: translateY(4px);
+}
+.button-clear-done:focus {
+  opacity: 0.8;
+}
